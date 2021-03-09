@@ -1,10 +1,11 @@
-import { Route } from '@angular/compiler/src/core';
+// import { Route } from '@angular/compiler/src/core';
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router'
+import { RouterModule, Routes } from '@angular/router';
 import { MembersComponent } from './members/members.component';
 
 const routes: Routes = [
   { path: 'members', component: MembersComponent}
+
 ];
 
 @NgModule({
